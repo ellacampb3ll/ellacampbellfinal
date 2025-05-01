@@ -148,9 +148,9 @@ img {
 /* homepage hero img */
 .hero {
     position: relative;
-    height: 100vh; 
+    height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center; 
     text-align: center;
     color: white; 
@@ -162,17 +162,18 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: -1; 
 }
 
 .hero-img img {
     width: 100%;
     height: 100%;
     object-fit: cover; 
+}
 
 .hero-overlay {
     position: absolute;
-    background: rgba(45, 157, 28, 0.933);
+    background: rgba(45, 157, 28, 0.933); 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -245,6 +246,11 @@ img {
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s ease;
+  }
+  
+.homepage-service-card:hover .homepage-card-overlay,
+.homepage-service-card:focus-within .homepage-card-overlay {
+    opacity: 1;
   }
   
 .homepage-card-overlay h3 {
@@ -344,7 +350,7 @@ img {
   }
   
 .service-card:hover {
-    background-color: #28a745; /* Green on hover */
+    background-color: #28a745; 
     transform: translateY(-5px);
   }
   
@@ -368,7 +374,7 @@ img {
   }
   
 .service-card:hover .price-estimate {
-    display: block;
+    display: block; 
   }
   
 /* contact page */
