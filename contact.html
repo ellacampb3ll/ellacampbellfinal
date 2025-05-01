@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | East Coast Junk Removal</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">
+      <img src="images/logo.png" alt="East Coast Junk Removal Logo" />
+    </div>
+    <nav class="main-nav">
+        <div class="desktop-nav">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+        <button id="menu-toggle" aria-label="Open mobile menu">&#9776;</button>
+      
+        <div id="fullscreen-menu" class="menu-overlay">
+          <button id="menu-close" aria-label="Close mobile menu">&times;</button>
+          <ul class="menu-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+
+  <main>
+    <section class="page-hero" style="background:#ccc; text-align:center; padding:2rem 1rem;">
+      <h1>Contact Us</h1>
+      <p>Let us help you clean out your space: fast, friendly, and affordable.</p>
+    </section>
+
+    <section class="contact-info" style="padding: 2rem 1rem;">
+      <h2>Get in Touch</h2>
+      <p><strong>Phone:</strong> <a href="tel:1234567890">(123) 456-7890</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@eastcoastjunk.com">info@eastcoastjunk.com</a></p>
+      <p><strong>Service Area:</strong> We proudly serve North and South Carolina! </p>
+    </section>
+
+    <section class="contact-form" style="padding: 2rem 1rem;">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn-secondary">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <nav class="footer-nav">
+      <a href="index.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

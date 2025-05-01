@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reviews | East Coast Junk Removal</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">
+      <img src="images/logo.png" alt="East Coast Junk Removal Logo" />
+    </div>
+    <nav class="main-nav">
+      <div class="desktop-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <button id="menu-toggle" aria-label="Open mobile menu">&#9776;</button>
+      <div id="fullscreen-menu" class="menu-overlay">
+        <button id="menu-close" aria-label="Close mobile menu">&times;</button>
+        <ul class="menu-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero" style="text-align: center; padding: 2rem 1rem; background: #f0f0f0;">
+      <h1>Customer Reviews</h1>
+      <p>We take pride in every haul, here’s what our clients are saying.</p>
+    </section>
+
+    <section class="reviews-section" style="padding: 2rem 1rem;">
+      <div class="review-card">
+        <p class="review-text">“East Coast Junk Removal was fast, professional, and affordable. Cleared out my garage in under an hour!”</p>
+        <p class="review-author">– Sarah Tuggle | Wilmington, NC | June 2024</p>
+      </div>
+
+      <div class="review-card">
+        <p class="review-text">“Called them on a Saturday and they showed up same-day. Highly recommend for yard cleanups!”</p>
+        <p class="review-author">– Mark Right | Myrtle Beach, SC | Sept 2024 </p>
+      </div>
+
+      <div class="review-card">
+        <p class="review-text">“Reliable and friendly team. The estimate matched the final price, and they left everything spotless.”</p>
+        <p class="review-author">– Denise Fike | Jacksonville, NC | Jan 2025 </p>
+      </div>
+
+      <!-- Optional: add a form placeholder if you'd like people to submit reviews -->
+      <div class="review-form-prompt" style="margin-top: 2rem;">
+        <p>Want to leave a review? <a href="contact.html">Get in touch!</a></p>
+      </div>
+    </section>
+
+    <section class="review-form-section">
+        <h2>Leave Us a Review</h2>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="review-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+      
+          <label for="location">City & State</label>
+          <input type="text" id="location" name="location" required />
+      
+          <label for="message">Your Review</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+      
+          <button type="submit">Submit Review</button>
+        </form>
+      </section>
+  </main>
+
+  <footer class="site-footer">
+    <nav class="footer-nav">
+      <a href="index.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
