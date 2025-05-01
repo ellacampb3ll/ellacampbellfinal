@@ -344,7 +344,7 @@ img {
   }
   
 .service-card:hover {
-    background-color: #28a745; /* Green on hover */
+    background-color: #28a745; 
     transform: translateY(-5px);
   }
   
