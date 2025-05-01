@@ -148,12 +148,12 @@ img {
 /* homepage hero img */
 .hero {
     position: relative;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     display: flex;
-    align-items: center; /* Vertically center the content */
-    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+    justify-content: center; 
     text-align: center;
-    color: white; /* Text color */
+    color: white; 
 }
 
 .hero-img {
@@ -162,18 +162,17 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1; /* Ensure the image stays behind the content */
+    z-index: -1;
 }
 
 .hero-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Make the image cover the entire section without distortion */
-}
+    object-fit: cover; 
 
 .hero-overlay {
     position: absolute;
-    background: rgba(45, 157, 28, 0.933); /* Optional: add a semi-transparent overlay */
+    background: rgba(45, 157, 28, 0.933);
     display: flex;
     flex-direction: column;
     justify-content: center;
